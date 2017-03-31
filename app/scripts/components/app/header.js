@@ -10,6 +10,7 @@ const paths = [
   ['Granules', '/granules'],
   ['PDRs', '/pdrs'],
   ['Resources', '/resources'],
+  ['Distribution', '/distribution'],
   ['Logs', '/logs']
 ];
 
