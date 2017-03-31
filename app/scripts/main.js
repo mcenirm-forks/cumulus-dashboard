@@ -48,6 +48,7 @@ import PdrOverview from './components/pdr/overview';
 import PdrList from './components/pdr/list';
 
 import Resources from './components/resources';
+import Distribution from './components/distribution';
 import Logs from './components/logs';
 
 // redirect to login when not auth'd
@@ -90,6 +91,7 @@ render((
         </Route>
         <Route path='logs' component={Logs} />
         <Route path='resources' component={Resources} />
+        <Route path='distribution' component={Distribution} />
       </Route>
     </Router>
   </Provider>
