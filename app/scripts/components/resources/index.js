@@ -13,7 +13,7 @@ import LoadingEllipsis from '../app/loading-ellipsis';
 // slower 20 second update interval here
 const UPDATE = 20000;
 
-var Resources = React.createClass({
+const Resources = React.createClass({
   propTypes: {
     dispatch: React.PropTypes.func,
     stats: React.PropTypes.object
@@ -49,7 +49,7 @@ var Resources = React.createClass({
     ];
 
     return (
-      <div className='page__logs'>
+      <div className='page__resources'>
         <div className='content__header'>
           <div className='row'>
             <h1 className='heading--xlarge'>Resources</h1>
