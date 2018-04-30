@@ -7,5 +7,6 @@ stages:
   - jobs:
       - scripts:
           - echo 'Going to kill the dragon, watch me'
-          - sleep 1
-          - echo 'Nailed it'
+          - sleep 5
+          - echo 'Failed!'
+          - false
